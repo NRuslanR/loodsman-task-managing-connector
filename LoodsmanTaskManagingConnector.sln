@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagingService", "..\MessagingService\MessagingService\MessagingService.csproj", "{BF5C2F67-FA05-458C-8345-2220146666D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UMP.Loodsman.Dtos", "..\Loodsman.Tasks.Dtos\Loodsman.Tasks.Dtos\UMP.Loodsman.Dtos.csproj", "{45125AEE-0B2C-476E-AC4B-C2A134FFCE4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoodsmanAdapters", "..\loodsmanadapters\LoodsmanAdapters.csproj", "{8D779AFB-222C-4038-A06A-2B90FD5C4D40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoodsmanTaskManagingConnectorConsole", "LoodsmanTaskManagingConnectorConsole\LoodsmanTaskManagingConnectorConsole.csproj", "{41F59149-FAC9-4676-AE6D-0F32D171487D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoodsmanTaskManagingConnector", "LoodsmanTaskManagingConnector\LoodsmanTaskManagingConnector.csproj", "{89335981-E7E8-4EAF-B7DB-732297DFF4D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleRabbitMQMessagingService", "..\RabbitMQMessagingService\RabbitMQMessagingService\SimpleRabbitMQMessagingService.csproj", "{46AC930B-1740-4539-9EC0-8CB724BC3447}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF5C2F67-FA05-458C-8345-2220146666D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5C2F67-FA05-458C-8345-2220146666D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5C2F67-FA05-458C-8345-2220146666D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5C2F67-FA05-458C-8345-2220146666D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45125AEE-0B2C-476E-AC4B-C2A134FFCE4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45125AEE-0B2C-476E-AC4B-C2A134FFCE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45125AEE-0B2C-476E-AC4B-C2A134FFCE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45125AEE-0B2C-476E-AC4B-C2A134FFCE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D779AFB-222C-4038-A06A-2B90FD5C4D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D779AFB-222C-4038-A06A-2B90FD5C4D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D779AFB-222C-4038-A06A-2B90FD5C4D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D779AFB-222C-4038-A06A-2B90FD5C4D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F59149-FAC9-4676-AE6D-0F32D171487D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F59149-FAC9-4676-AE6D-0F32D171487D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F59149-FAC9-4676-AE6D-0F32D171487D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F59149-FAC9-4676-AE6D-0F32D171487D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89335981-E7E8-4EAF-B7DB-732297DFF4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89335981-E7E8-4EAF-B7DB-732297DFF4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89335981-E7E8-4EAF-B7DB-732297DFF4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89335981-E7E8-4EAF-B7DB-732297DFF4D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46AC930B-1740-4539-9EC0-8CB724BC3447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46AC930B-1740-4539-9EC0-8CB724BC3447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46AC930B-1740-4539-9EC0-8CB724BC3447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46AC930B-1740-4539-9EC0-8CB724BC3447}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5C46128-6126-462D-BB1F-3422F17D3803}
+	EndGlobalSection
+EndGlobal
